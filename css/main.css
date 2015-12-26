@@ -1,0 +1,1020 @@
+
+@media only screen and (max-width: 480px) {
+body{
+        width: 99%;
+    }
+    .head{
+        width: 98%;
+        margin-top: 1%;
+        clear:both;
+        display: inline-table;
+    }
+    .head .logo img{
+        display: inline-table;
+        width: 100%;
+        clear:both;
+    }
+    
+    .head .menu{
+        display: inline-table;
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 5%;
+       
+        
+    }
+    header nav{
+        display: block;
+    }
+    header nav ul{
+        list-style-type: none;
+        padding: 0px;
+        width: auto;
+        
+    }
+    header nav ul li{
+        float:left;
+        margin-left: 0;
+        color: #000;
+        text-decoration: none;
+    }
+   
+    header a .first{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 60px;
+        height: 40px;
+    }
+    header a .normal{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        color: #fff;
+        width: 60px;
+        height: 40px;;  
+    }
+     header a .last{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 60px;
+        height: 40px;
+    }
+    header a .first:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:  #cf1127;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 60px;
+        height: 40px;
+    }
+     header a .normal:hover{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        color: #fff;
+        width: 60px;
+        height: 40px; 
+    }
+     header a .last:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 60px;
+        height: 40px;;
+    }
+     .main{
+         width: 98%;
+         margin-top: 1%;
+         margin-left: 1%;
+        
+    }
+   
+   
+    #dane{
+        display: none;
+    }
+    .select-time{
+       
+        width: 100%;
+    }
+    
+    .select-time nav{
+        display: inline;
+    }
+    .select-time nav ul{
+        
+        list-style-type: none;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    
+    .select-time nav ul li button{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+        
+    }
+    .select-time nav ul li button:hover{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;       
+    }
+    .select-time nav ul li button:active{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;
+        
+    }
+    .device{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 5%;
+        
+    }
+    .device table{
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1%;
+        position: relative;
+        float: left;
+        border: 1px #000 solid;
+        border-radius: 7px;
+        
+    }
+    .device table tr td:first-child{
+        width: 70%;
+    }
+    .device table tr td:last-child{
+        text-align: right;
+    }
+    .device table .ok{
+        width: 20%;
+    }
+    #status #data table{
+        width: 100%;
+    }
+    #panel1 #temperature table{
+        width: 100%;
+        
+    }
+    #panel1 #temperature table td:first-child{
+        width: 50%;
+    }
+    #panel1 #rain table{
+        width: 100%
+    }
+    #panel1 #rain table td:first-child{
+        width: 50%;
+    }
+    
+    #panel1 #rain-percent table{
+        width: 100%
+    }
+    #panel1 #rain-percent table td:first-child{
+        width: 50%;
+    }
+    #chart_temp{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_huidity{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_rain{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #day{
+        display: none;
+    }
+    #tree-days{
+        display: none;
+    }
+    #seven-days{
+        display: none;
+    }
+    
+    
+    
+}
+
+
+/* ==========================================================================
+   Media >480px
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+body{
+        width: 99%;
+    }
+    .head{
+        width: 98%;
+        margin-top: 1%;
+        clear:both;
+        display: inline-table;
+    }
+    .head .logo img{
+        display: inline-table;
+        width: 100%;
+        clear:both;
+    }
+    
+    .head .menu{
+        display: inline-table;
+        width: 79%;
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    header nav{
+        display: block;
+    }
+    header nav ul{
+        list-style-type: none;
+        padding: 0px;
+        width: auto;
+        
+    }
+    header nav ul li{
+        float:left;
+        margin-left: 0;
+        color: #000;
+        text-decoration: none;
+    }
+   
+    header a .first{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .normal{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .first:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:  #cf1127;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+     header a .normal:hover{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+     .main{
+         display: inline-table;
+         width: 98%;
+         margin-top: 1%;
+         margin-left: 1%;
+        
+     }
+    #dane{
+        display: none;
+    }
+    .select-time{
+       
+        width: 100%;
+    }
+    
+    .select-time nav{
+        display: inline;
+    }
+    .select-time nav ul{
+        
+        list-style-type: none;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    
+    .select-time nav ul li button{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+        
+    }
+    .select-time nav ul li button:hover{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;       
+    }
+    .select-time nav ul li button:active{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;
+        
+    }
+   
+    #chart_temp{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_huidity{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_rain{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    .device{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 5%;
+        
+    }
+    .device table{
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1%;
+        position: relative;
+        float: left;
+        border: 1px #000 solid;
+        border-radius: 7px;
+        
+    }
+    .device table tr td:first-child{
+        width: 70%;
+    }
+    .device table tr td:last-child{
+        text-align: right;
+    }
+    .device table .ok{
+        width: 20%;
+    }
+    #status #data table{
+        width: 100%;
+    }
+    #panel1 #temperature table{
+        width: 100%;
+        
+    }
+    #panel1 #temperature table td:first-child{
+        width: 50%;
+    }
+    #panel1 #rain table{
+        width: 100%
+    }
+    #panel1 #rain table td:first-child{
+        width: 50%;
+    }
+    
+    #panel1 #rain-percent table{
+        width: 100%
+    }
+    #panel1 #rain-percent table td:first-child{
+        width: 50%;
+    }
+    #day{
+        display: none;
+    }
+    #tree-days{
+        display: none;
+    }
+    #seven-days{
+        display: none;
+    }
+    
+}
+
+
+/* ==========================================================================
+   Media >768px
+   ========================================================================== */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+ body{
+        width: 99%;
+    }
+    .head{
+        width: 80%;
+        margin-bottom: 1%; 
+        margin-left:  10%;
+        display: table;
+    }
+    .head .logo{
+        width: 30%;
+        position: relative;
+        float: left;
+    }
+    .head .logo img{
+        width: 100%;
+    } 
+    .head .menu{
+        position: relative;
+        margin-left: 5%;
+        margin-top: 2%;
+        float: right;
+        width: 55%;
+    }
+    header nav{
+        display: block;
+        float: right;
+    }
+    header nav ul{
+        list-style-type: none;
+        padding: 0px;
+        width: auto;
+        
+    }
+    header nav ul li{
+        float:left;
+        margin-left: 0;
+        color: #000;
+        text-decoration: none;
+    }
+   
+    header a .first{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .normal{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .first:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:  #cf1127;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+     header a .normal:hover{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+     .main{
+        width: 80%;
+        margin-top: 1%;
+        margin-left: 10%;
+    } 
+    .main .left{
+        width: 49%;
+        position: relative;
+        float: left;
+    }
+    .main .right{
+        width: 49%;
+        margin-left: 2%;
+        position: relative;
+        float: left;
+    }
+   
+    .select-time{
+       
+        width: 100%;
+    }
+    
+    .select-time nav{
+        display: inline;
+    }
+    .select-time nav ul{
+        
+        list-style-type: none;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    
+    .select-time nav ul li button{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+        
+    }
+    .select-time nav ul li button:hover{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;       
+    }
+    .select-time nav ul li button:active{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;
+        
+    }
+    
+   
+    #chart_temp{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_huidity{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_rain{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    .device{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 5%;
+        
+    }
+    .device table{
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1%;
+        position: relative;
+        float: left;
+        border: 1px #000 solid;
+        border-radius: 7px;
+        
+    }
+    .device table tr td:first-child{
+        width: 70%;
+    }
+    .device table tr td:last-child{
+        text-align: right;
+    }
+    .device table .ok{
+        width: 20%;
+    }
+    #status #data table{
+        width: 100%;
+    }
+    #panel1 #temperature table{
+        width: 100%;
+        
+    }
+    #panel1 #temperature table td:first-child{
+        width: 50%;
+    }
+    #panel1 #rain table{
+        width: 100%
+    }
+    #panel1 #rain table td:first-child{
+        width: 50%;
+    }
+    
+    #panel1 #rain-percent table{
+        width: 100%
+    }
+    #panel1 #rain-percent table td:first-child{
+        width: 50%;
+    }
+    #day{
+        display: none;
+    }
+    #tree-days{
+        display: none;
+    }
+    #seven-days{
+        display: none;
+    }
+}
+
+/* ==========================================================================
+   Media >1140px
+   ========================================================================== */
+
+@media only screen and (min-width: 1140px) {
+    body{
+        width: 99%;
+    }
+    .head{
+        width: 80%;
+        margin-bottom: 1%; 
+        margin-left:  10%;
+        display: table;
+    }
+    .head .logo{
+        width: 30%;
+        position: relative;
+        float: left;
+    }
+    .head .logo img{
+        width: 100%;
+    } 
+    .head .menu{
+        position: relative;
+        margin-left: 5%;
+        margin-top: 2%;
+        float: right;
+        width: 55%;
+    }
+    .container{
+        width: 100%;
+    }
+    header nav{
+        display: block;
+        float: right;
+    }
+    header nav ul{
+        list-style-type: none;
+        padding: 0px;
+        width: auto;
+        
+    }
+    header nav ul li{
+        float:left;
+        margin-left: 0;
+        color: #000;
+        text-decoration: none;
+    }
+   
+    header a .first{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .normal{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    header a .first:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:  #cf1127;
+        border: solid 1px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+     header a .normal:hover{
+       text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        color: #fff;
+        width: 70px;
+        height: 50px;  
+    }
+     header a .last:hover{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #cf1127;
+        border: solid 1px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:  10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+    }
+    .main{
+        width: 80%;
+        margin-top: 1%;
+        margin-left: 10%;
+    } 
+    .main .left{
+        width: 49%;
+        position: relative;
+        float: left;
+    }
+    .main .right{
+        width: 49%;
+        margin-left: 2%;
+        position: relative;
+        float: left;
+    }
+ 
+    .select-time{
+       
+        width: 100%;
+    }
+    
+    .select-time nav{
+        display: inline;
+    }
+    .select-time nav ul{
+        
+        list-style-type: none;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    
+    .select-time nav ul li button{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #fff;
+        width: 70px;
+        height: 50px;
+        
+    }
+    .select-time nav ul li button:hover{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;       
+    }
+    .select-time nav ul li button:active{
+        position: relative;
+        float: left;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #000;
+        border: solid 1px;
+        border-radius: 10px;
+        color: #cf1127;
+        width: 70px;
+        height: 50px;
+        
+    }
+    
+    #chart_temp{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_huidity{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    #chart_rain{
+        clear: both;
+        width: 98%;
+        margin-top:3%;
+        
+    }
+    
+    .device{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 5%;
+        
+    }
+    .device table{
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1%;
+        position: relative;
+        float: left;
+        border: 1px #000 solid;
+        border-radius: 7px;
+        
+    }
+    .device table tr td:first-child{
+        width: 70%;
+    }
+    .device table tr td:last-child{
+        text-align: right;
+    }
+    .device table .ok{
+        width: 20%;
+    }
+    
+    
+    #status #data table{
+        width: 100%;
+    }
+    #panel1 #temperature table{
+        width: 100%;
+        
+    }
+    #panel1 #temperature table td:first-child{
+        width: 50%;
+    }
+    #panel1 #rain table{
+        width: 100%
+    }
+    #panel1 #rain table td:first-child{
+        width: 50%;
+    }
+    
+    #panel1 #rain-percent table{
+        width: 100%
+    }
+    #panel1 #rain-percent table td:first-child{
+        width: 50%;
+    }
+    #day{
+        display: none;
+    }
+    #tree-days{
+        display: none;
+    }
+    #seven-days{
+        display: none;
+    }
+    
+}
+
