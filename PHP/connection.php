@@ -14,10 +14,10 @@
 class connection{
 
     protected $db;
-    private $db_name = "";
-    private $user_name = "";
-    private $user_pass = "";
-    private $host = "";
+    private $db_name = "zanussi_garden";
+    private $user_name = "zanussi_ugarden";
+    private $user_pass = "garden@123";
+    private $host = "i-soft.com.pl";
     public  $conn = NULL;
     public function Connection(){
         try{
